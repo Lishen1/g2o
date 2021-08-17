@@ -351,7 +351,7 @@ class G2O_CORE_API SparseOptimizer : public OptimizableGraph
 
 	bool addPopAction(HyperGraphAction* action);
 
-	bool SparseOptimizer::addDiscardTopAction(HyperGraphAction* action);
+	bool addDiscardTopAction(HyperGraphAction* action);
 
 	      protected:
 	bool* _forceStopFlag;
